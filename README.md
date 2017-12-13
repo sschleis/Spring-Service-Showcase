@@ -25,3 +25,7 @@ Body:
 Username: admin <br/>
 Password: geheim <br/>
 Header: Basic YWRtaW46Z2VoZWlt
+
+## Contact:
+[E-Mail: sebastian@schleis-dev.de](mailto:sebastian@schleis-dev.de)<br/>
+[Twitter: @Sschleis](https://twitter.com/Sschleis)<br/>
