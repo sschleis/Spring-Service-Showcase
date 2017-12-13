@@ -1,0 +1,24 @@
+### Abfrage aller Customer
+GET http://{{server}}/customer/findAll
+Authorization: {{credentials}}
+
+### Erstellen von einem Customer
+POST http://{{server}}/customer
+Authorization: {{credentials}}
+Content-Type: application/json
+
+{
+    "firstname": "Luke",
+    "lastname": "Skywalker",
+    "gender": "Male"
+}
+
+### Customer by ID
+GET http://{{server}}/customer/1
+Authorization: {{credentials}}
+
+### Lösche alle Customers
+DELETE http://{{server}}/customer/deleteAll
+Authorization: {{credentials}}
+
+###
