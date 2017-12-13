@@ -9,7 +9,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @Configuration
 public class AuthConfiguration {
     @Bean
-    public UserDetailsService userDetailsService() throws Exception {
+    public UserDetailsService userDetailsService() {
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
         manager.createUser(User.withUsername("admin").password("geheim").roles("USER", "ADMIN").build());
         return manager;
