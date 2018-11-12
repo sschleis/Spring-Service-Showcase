@@ -1,4 +1,4 @@
-# Spring-Service-Showcase 1.0.0
+# Spring-Service-Showcase 2.0.0
 
 Example REST Service
 
