@@ -24,6 +24,7 @@ public class CustomerService {
 
     @RequestMapping(value = "findAll", method = RequestMethod.GET)
     public List<Customer> findAllCustomers() {
+        System.out.println("Request");
         return customerRepository.findAll();
     }
 
