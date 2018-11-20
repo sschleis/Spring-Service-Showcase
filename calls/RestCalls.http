@@ -8,13 +8,13 @@ Authorization: {{credentials}}
 Content-Type: application/json
 
 {
-    "firstname": "Luke",
-    "lastname": "Skywalker",
-    "gender": "Male"
+  "firstname": "Luke",
+  "lastname": "Skywalker",
+  "birthdate": "2018-11-11"
 }
 
 ### Customer by ID
-GET http://{{server}}/customer/1
+GET http://{{server}}/customer/2
 Authorization: {{credentials}}
 
 ### Lösche alle Customers

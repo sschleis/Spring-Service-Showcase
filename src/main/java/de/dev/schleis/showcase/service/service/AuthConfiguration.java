@@ -16,7 +16,7 @@ public class AuthConfiguration extends WebSecurityConfigurerAdapter
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception
     {
         auth.inMemoryAuthentication()
-                .withUser("admin").password("{noop}geheim").roles("USER");
+                .withUser("admin").password("{bcrypt}$2a$10$tvdJ8njst9h5J0BovBFzqelV9O6lEuOXTPTJF5R3Sfm9DWMmp5.lO").roles("USER");
     }
 
     @Override
