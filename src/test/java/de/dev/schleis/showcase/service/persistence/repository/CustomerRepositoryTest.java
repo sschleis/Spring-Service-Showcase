@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Date;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 
@@ -22,7 +24,7 @@ public class CustomerRepositoryTest {
         final Customer result = underTest.save(Customer.builder()
                 .firstname("Luke")
                 .lastname("Skywalker")
-                .gender("Male")
+                .birthdate(new Date())
                 .build());
 
         assertThat(result).isNotNull();
