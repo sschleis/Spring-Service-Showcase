@@ -1,5 +1,7 @@
 # Spring-Service-Showcase 2.3.1
 
+![Java CI with Maven](https://github.com/sschleis/Spring-Service-Showcase/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+
 Example REST Service
 
 ## Endpoints
