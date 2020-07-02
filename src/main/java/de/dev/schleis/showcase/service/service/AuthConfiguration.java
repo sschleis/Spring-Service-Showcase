@@ -27,6 +27,7 @@ public class AuthConfiguration extends WebSecurityConfigurerAdapter
                 .authorizeRequests()
                 .antMatchers("/customer/deleteAll").hasRole("ADMIN")
                 .antMatchers("/customer/*").hasRole("USER")
+                .antMatchers("/actuator/*").permitAll()
                 .anyRequest().authenticated();
 
         http.csrf().disable();
